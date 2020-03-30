@@ -1,0 +1,34 @@
+<div class="additional-links">
+    <a href="~language_prefix~/~pagename~/modules" title="*Installed modules*"><i class="fa fa-cubes"></i></a>
+</div>
+<table cellpadding="0" cellspacing="0" class="admin-overview">
+    <thead>
+        <tr>
+            <th width="10%"></th>
+            <th width="10%" class="text-left">*Language*</th>
+            <th width="10%" class="text-left">*Module*</th>
+            <th width="20%" class="text-left">*Parameter*</th>
+            <th width="50%" class="text-left">*Value*</th>
+        </tr>
+    </thead>
+    ~items~
+    <tr class="editable" data-id="null">
+        <td width="10%">
+            <a href="#"
+               data-model="modules\modules\models\modules_options"
+               data-m-action="dynamic_edit"
+               data-m-context="tr[data-id='null']"
+               class="edit save"><i class="fa fa-edit"></i></a>
+            <a href="#"
+               data-model="modules\modules\models\modules_options"
+               data-m-action="dynamic_edit"
+               data-m-context="tr[data-id='null']"
+               class="delete"
+               title="*Delete*"><i class="fa fa-trash"></i></a>
+        </td>
+        <td class="text-left" width="10%"><span data-edit="language"><textarea>~language_id~</textarea></span></td>
+        <td class="text-left" width="10%"><span data-edit="module"><textarea>~module~</textarea></span></td>
+        <td class="text-left" width="20%"><span data-edit="parameter"><textarea placeholder="*Type new parameter*"></textarea></span></td>
+        <td class="text-left" width="50%"><span data-edit="value"><textarea placeholder="*Type new value*"></textarea></span></td>
+    </tr>
+</table>

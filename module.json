@@ -1,0 +1,17 @@
+{
+  "title":"Modules",
+  "name":"modules",
+  "description":"Management of modules: installing, updates, removing and exporting. You can to create your own module and to share it for everyone via ours website.",
+  "icon":"<i class=\"fa fa-cubes\"></i>",
+  "version":"1.0",
+  "date":"2017-08-07",
+  "author":"mrinmiro@gmail.com",
+  "compatible_cores":["1.0"],
+  "dashboard_menu":{
+    "/overview":"<i class=\"fa fa-cubes\"></i> *Installed modules*",
+    "/shop":"<i class=\"fa fa-shopping-bag\"></i> *Modules shop*",
+    "/install":"<i class=\"fa fa-cube\"></i> *Install module*"
+  },
+  "price":"0",
+  "":""
+}
